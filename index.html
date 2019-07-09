@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<head>   
+    
+    <?php require('crutchcode.php);?>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <style>
+@import url('https://fonts.googleapis.com/css?family=Muli|Pacifico');
+</style>
+    <link rel="stylesheet" href="crutchcode.css">
+<title>Portfolio</title>    
+</head>
+    <body>
+    
+        
+       <!-- <img src="website_opening.gif" class="welcome"> -->
+       
+
+        <div class="nav-menu">
+        <div class="nav-btn">
+           <ul class="nav">
+  <li class="anim-link">
+      <a class="nav-link active" href="#"><button>Home</button></a>
+  </li>
+  <li class="anim-link">
+      <a class="nav-link" href="#about-me"><button>About</button></a>
+  </li>
+  <li class="anim-link">
+    <a class="nav-link" href="#projects"><button>Projects</button></a>
+  </li>
+   <!--
+  <li class="anim-link">
+    <a class="nav-link" href="#contact"><button>Contact</button></a>
+  </li>
+    -->
+  
+</ul>
+           <img id="logo" src="logo_transparent.png">
+            
+            
+        </div>
+        </div>
+        <!--
+        <img src="website_opening.gif" class="welcome">
+        -->
+                <div class="wrapper-wrapper">
+                
+        <div class="heading-wrapper">
+        <div class="heading-section">
+        <h1>Hi, I'm Joey</h1>
+            <br>
+       <h2>A Web Developer</h2>
+            </div>                    
+                </div>
+            <div class="hr-styling">
+            </div>
+        </div>
+        <div class="text-content">
+            <div id="about-me"></div>
+            <h2 class="about-me">About me</h2>
+            <br>
+        <p>Hello, and welcome to my website! My name is Joey Lujan and I am a web developer. I've been around computers ever since I was a little kid, and while growing up I was always curious about how computers worked and how people were able to create cool and useful things with programming. After starting college, I noticed there was a major in web development, so I decided to enroll in the first class to see how it was. And, to my surprise, I immediately fell in love with it. I found that web development satisfies the side of me that likes to problem solve, and the side of me that likes to create and design the look of projects. While enrolled in college, I started doing some freelance work with CMS software like Wordpress, while also doing some work that involved developing websites from scratch or going into the files for websites that were already built and tweaking some code.
+        </p>
+            <div class="img-display">
+            
+        
+            <!--    <img class="cartoon" src="facebook_cover_photo_1.png"> -->
+            
+        </div>
+        </div>
+        <div class="parallax"></div>
+        
+        <div class="graph">
+            <h1>Skills</h1>
+            <br>
+
+            <script>
+                
+                function animationActive() {
+                    document.getElementById("swap").setAttribute("id", "swap:hover");
+                }
+
+            </script>
+
+            <div class="animationActive">
+                    <button onclick = "animationActive()"><h3>(Click Here)</h3></button>
+                    </div>
+            <ul>
+            <li>
+            
+            <br>
+            <br>
+            <br>
+            <div class="test"></div>
+            <button onclick = "animateIn()"></button>
+            <br>
+            
+            <!--"animated fadeInRight"-->
+            <div onscroll = 'animateIn()'></div>
+
+                <style>
+
+                    .animationActive {
+                        text-align: center;
+                    }
+
+
+                    #swap {
+                        height: auto;
+                        width: 0px;
+                        visibility: hidden;
+                        animation: movement;
+                    }
+
+                    @keyframes movement {
+                        from {visibility: hidden;}
+                        to {visibility: visibile;}
+                    }
+
+                    #swap:hover {
+                        transition: 5s;
+                        width: 100%;
+                        
+                        
+                    }
+
+                </style>
+
+            <div id="swap">
+                <h3>HTML5 / CSS3</h3>
+                <div class="progress">
+  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+  aria-valuemin="0" aria-valuemax="100" style="width:90%">
+    90%
+  </div>
+</div>
+                <br>
+                <h3>PHP</h3>
+                <div class="progress">
+  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40"
+  aria-valuemin="0" aria-valuemax="100" style="width:80%">
+      80%
+  </div>
+</div>
+                <br>
+                <h3>SQL / MySQL</h3><div class="progress">
+  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40"
+  aria-valuemin="0" aria-valuemax="100" style="width:75%">
+      75%
+  </div>
+</div>
+                <br>
+                <h2 class="still-learn"></h2>
+                <h3>Javascript</h3><div class="progress">
+  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70"
+  aria-valuemin="0" aria-valuemax="100" style="width:75%">
+      75%
+     </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<br>
+    
+
+    <script>
+
+        /*
+                    6-15-2019 LOG
+                    Trying to figure out how to change HTML element ID and Classes to animate.css
+                    classes. So far, no evenetlistener has worked.
+        */
+
+
+        /*
+        if (document.body.scrollTop < 20 ) {
+            document.getElementById('text').innerHTML = "We are testing!";
+        } else {
+            document.getElementById('text').innerHTML = "Keep going!";
+        }
+        */
+        
+        document.getElementById('swap').addEventListener('scroll', function() {animateIn()
+            
+            document.getElementById('swap').onscroll.className = 'animated fadeInRight';
+            document.getElementById('text').innerHTML('We are testing!');
+        }
+    
+
+
+    </script>
+
+<!--
+                <br>
+                <h3>Python</h3>
+                <div class="progress">
+  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70"
+  aria-valuemin="0" aria-valuemax="100" style="width:50%">
+      50%
+  </div>
+-->
+</div>
+            
+            
+        </div>
+        
+        <div class="parallax"></div>
+        
+            <div id="projects"></div>
+            <h1 class="projects">Past Projects</h1>
+        <h3 class="tm">MORE COMING SOON (tm)</h3>
+            
+            <div class = 'projects-img'>
+                <div class="img-org">
+                <!--img-org is the preview styling-->    
+                    <a href="http://insurancebenefitcenter.com/" target="_blank"><div class="img-overlay"><h3 class="center">Click here to continue!</h3></a>
+                        <a><img src="crutchcode-showcase1.png" class="img1"></a>
+                    </div>
+                        <br>
+                        <div class="spacing"></div>
+                    <div class="img-overlay"><a href="http://crutchcode.com/wp/" target="_blank"><h3 class="center">Click here to continue!</h3></a>
+                        <a><img src="crutchcode-showcase2.png" class="img2"></a>
+                    </div>
+                        <br>
+                </div>
+                <!--
+                        <div class="img-overlay"><a href="https://codepen.io/bluffins/pen/EJdWZY" target="_blank"><h3 class="center">Click here to continue!</h3></a>
+                        <a><img src="portfolio-1.PNG" class="img2"></a>
+                    </div>
+                        <br>
+                    
+                    <div class="img-overlay"><a href="https://codepen.io/bluffins/pen/WmybaY" target="_blank"><h3 class="center">Click here to continue!</h3></a>
+                        <a><img src="portfolio-2.PNG" class="img2"></a>
+                    </div>
+                        <br>
+                    
+                    <div class="img-overlay"><a href="https://codepen.io/bluffins/pen/EMaMGr" target="_blank"><h3 class="center">Click here to continue!</h3></a>
+                        <a><img src="portfolio-3.PNG" class="img2"></a>
+                    </div>
+                        <br>
+                    
+                    <div class="img-overlay"><a href="https://codepen.io/bluffins/pen/BbpXoY" target="_blank"><h3 class="center">Click here to continue!</h3></a>
+                        <a><img src="portfolio-4.PNG" class="img2"></a>
+                    </div>
+                        <br>
+                    
+                    <div class="img-overlay"><a href="https://codepen.io/bluffins/pen/aMmJvW" target="_blank"><h3 class="center">Click here to continue!</h3></a>
+                        <a><img src="portfolio-5.PNG" class="img2"></a>
+                    </div>
+                        <br>
+                    
+                    <div class="img-overlay"><a href="https://codepen.io/bluffins/pen/MxawWd" target="_blank"><h3 class="center">Click here to continue!</h3></a>
+                        <a><img src="portfolio-6.PNG" class="img2"></a>
+                    </div>
+                        <br>
+                    
+                    <div class="img-overlay"><a href="https://codepen.io/bluffins/pen/YgyzLb" target="_blank"><h3 class="center">Click here to continue!</h3></a>
+                        <a><img src="portfolio-7.PNG" class="img2"></a>
+                    </div>
+                        <br>    
+                -->      
+                    
+                    <br>
+                </div>
+            </div>
+        
+        <!--
+            <div class="parallax"></div>    
+        
+            <div class="text-content2">
+        -->
+                
+
+                
+    <!--   PRACTICE HOVER ANIMATION
+                <div class="hover-container">
+            
+                <li><a href="#" class="anim-link">Home</a></li>
+                <li><a href="#" class="anim-link">About</a></li>
+                <li><a href="#" class="anim-link">Projects</a></li>
+                <li><a href="#" class="anim-link">Contact</a></li>
+            
+                </div>
+     -->   
+        </div>
+        
+        <!--
+
+        <div id="contact"></div>
+        <br>
+        <br>
+            
+
+
+        <h1 class="contact-text">Want to get in touch?</h1>
+                
+                <h3 class="contact-text">(Database is currently under maintenance)</h3>
+        
+        <div class="form">
+        <div class="form-wrapper">
+            <form action="crutchcode.php" method="post">
+                <input type="text" name="first_name" placeholder="First name" class="first-name" required >
+                <br>
+                <input type="text" name="last_name" placeholder="Last name" class="last-name" required >
+                <br>
+                <input type="email" name="email" placeholder="johndoe@gmail.com" class="email" required >
+                <br>
+                <textarea cols="15" rows="10" class="text-box" name="comments" ></textarea>
+                <br>
+                <input type="submit" value="Submit" class="submit" >
+                <br>
+            </form>    
+            </div>
+        </div>
+
+-->
+        
+
+        
+        
+        
+        
+        
+        <!--            //TESTING
+        
+        <style>
+            #testing {
+                height: 700px;
+                background-color: lightgrey;
+                width: auto;
+            }
+
+            .anim1 {
+                height: 200px;
+                background-color: blue;
+                width: 1px;
+               
+            }
+
+            .anim1:hover {
+                width: 225px;
+                transition: 2s;
+                
+            }
+
+            
+
+
+        </style>
+        
+        <div id="testing">
+            <div class="anim1">
+                
+            </div>
+        </div>
+        
+        -->
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </body>
+    <div class="parallax2">
+    <footer>
+        <p>&copy; Joey Lujan<br>2018<br>Crutchcode.com</p>
+    </footer>
+    </div>
+</html>
